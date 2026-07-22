@@ -1,9 +1,12 @@
 # <ins>Day 1 at Knull</ins>
 
 
+
+
 ## <ins>Project</ins> 
 
 To learn and adopt the method in which professional engineers work before they begin writing
+
 
 
 
@@ -21,3 +24,11 @@ main
 
 -**Ship small** means to make small, working changes at a time, committing them as you go
 
+
+
+
+### <ins>About me</ins> 
+
+
+
+Hi, I'm Alex - currently learning software engineering fundamentals through this logbook
