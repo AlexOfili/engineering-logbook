@@ -61,7 +61,8 @@ def password_strength(password):
     else:
         return "weak"
 
-print("Password strength:", password_strength("Hunter2!"))
+user_password = input("Enter a password to check: ")
+print("Password strength:", password_strength(user_password))
 
 
 
