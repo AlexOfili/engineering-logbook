@@ -64,6 +64,7 @@ def password_strength(password):
 print("Password strength:", password_strength("Hunter2!"))
 
 
+
 #Number Guessing Game
 import random
 
@@ -83,3 +84,5 @@ def guessing_game(max_number=20):
             print("Too low.")
         else:
             print("Too high.")
+
+guessing_game()
