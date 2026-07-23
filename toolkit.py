@@ -45,3 +45,23 @@ def basket_total(prices, discount=0.0):
 print("Basket total:", basket_total([1.35, 2.20, 0.99], discount=0.1)) #example total with discount
 
 
+#Password Strength Checker
+def password_strength(password):
+    """Return 'weak', 'medium', or 'strong'."""
+    length_ok = len(password) >= 8
+    has_digit = any(char.isdigit() for char in password)
+    has_upper = any(char.isupper() for char in password)
+
+    score = sum([length_ok, has_digit, has_upper])
+
+    if score == 3:
+        return "strong"
+    elif score == 2:
+        return "medium"
+    else:
+        return "weak"
+
+print("Password strength:", password_strength("Hunter2!"))
+
+
+
