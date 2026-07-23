@@ -36,3 +36,12 @@ def convert_length(value, from_unit, to_unit):
 
 print("Converted length:", convert_length(100, 'meters', 'feet'))  # Example conversion
 
+#Basket total with discount
+def basket_total(prices, discount=0.0):
+    """Add up a list of prices, then apply a discount."""
+    subtotal = sum(prices)
+    return round(subtotal * (1 - discount), 2)
+
+print("Basket total:", basket_total([1.35, 2.20, 0.99], discount=0.1)) #example total with discount
+
+
