@@ -3,7 +3,7 @@
 
 
 
-## Project
+## The Project
 
 To learn and adopt the method in which professional engineers work before they begin a large task
 
@@ -34,7 +34,7 @@ main
 
 
 
-The scenario can initially be described in plain English:
+The problem can be initially described in plain English, acting as a guide for later code to follow:
 
 
 Shoppers arrive at the till randomly, at an average rate of λ (lambda people) per minute. The till serves one shopper at a time, at an average rate of μ (mu people) per minute. If a shopper arrives while the till is still busy with someone else, they queue and wait. The value we care about is W — the average time each shopper spends in the system (waiting + being served). If shoppers arrive faster than the till can serve them (λ ≥ μ), then the queue never empties and W continuously grows. 
