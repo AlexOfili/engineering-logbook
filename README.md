@@ -1,16 +1,16 @@
-# <ins>Day 1 at Knull</ins>
+# Day 1 at Knull
 
 
 
 
-## <ins>Project</ins> 
+## Project
 
 To learn and adopt the method in which professional engineers work before they begin a large task
 
 
 
 
-### <ins>What I'm learning</ins> 
+### What I'm learning 
 
 
 - A **Repository** is a project folder that Git tracks
@@ -26,8 +26,26 @@ main
 
 
 
+# Day 2 at Knull
 
-### <ins>About me</ins> 
+
+
+## The Project
+
+
+
+The scenario can initially be described in plain English:
+
+
+Shoppers arrive at the till randomly, at an average rate of λ (lambda people) per minute. The till serves one shopper at a time, at an average rate of μ (mu people) per minute. If a shopper arrives while the till is still busy with someone else, they queue and wait. The value we care about is W — the average time each shopper spends in the system (waiting + being served). If shoppers arrive faster than the till can serve them (λ ≥ μ), then the queue never empties and W continuously grows. However, if μ > λ, then everyone would get the chance to be served.
+
+
+
+
+
+
+
+### About me
 
 
 
