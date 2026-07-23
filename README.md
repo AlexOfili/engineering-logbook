@@ -41,6 +41,15 @@ Shoppers arrive at the till randomly, at an average rate of λ (lambda people) p
 
 
 
+### 'Cliff' Write-up
+
+
+
+As λ approaches μ (arrivals rate approaches the till's serving capacity), the average wait time rises rapidly. Going from λ=1.0 to λ=1.4 (a 40% increase) only raises wait from 1.0 to 1.67 minutes. But going from λ=1.8 to λ=1.9 (just a 5.5% increase) nearly doubles the wait, from 5.0 to 10.0 minutes. This is the "cliff", because if we take: W = 1/(μ−λ), the denominator shrinks toward zero as λ approaches μ, so W grows towards infinity. 
+
+
+For a business, this means running a till near full capacity can be risky as a small increase in footfall can cause a disproportionate spike in queue times.
+
 
 
 
