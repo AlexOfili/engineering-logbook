@@ -64,4 +64,22 @@ def password_strength(password):
 print("Password strength:", password_strength("Hunter2!"))
 
 
+#Number Guessing Game
+import random
 
+def guessing_game(max_number=20):
+    """Let the player guess a random number."""
+    secret = random.randint(1, max_number)
+    attempts = 0
+
+    while True:
+        guess = int(input(f"Guess a number between 1 and {max_number}: "))
+        attempts += 1
+
+        if guess == secret:
+            print(f"Correct! It took you {attempts} attempts.")
+            break
+        elif guess < secret:
+            print("Too low.")
+        else:
+            print("Too high.")
