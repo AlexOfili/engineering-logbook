@@ -32,5 +32,5 @@ if __name__ == "__main__":
     print(f"{'arrival rate':>14} {'theoretical wait':>17} {'simulated wait':>15}")  # right-aligning text
     for lam in [1.0, 1.4, 1.6, 1.8, 1.9]:
         theory = round(theoretical_wait(lam, 2), 2)
-        sim = round(simulate(lam, 2), 2)       # results aren't exactly the same because of randomness (noise)
+        sim = round(simulate(lam, 2), 2)       # results are close but aren't exactly the same because of randomness (noise)
         print(f"{lam:>14} {theory:>17} {sim:>15}")      
