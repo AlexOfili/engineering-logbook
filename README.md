@@ -37,7 +37,7 @@ main
 The scenario can initially be described in plain English:
 
 
-Shoppers arrive at the till randomly, at an average rate of λ (lambda people) per minute. The till serves one shopper at a time, at an average rate of μ (mu people) per minute. If a shopper arrives while the till is still busy with someone else, they queue and wait. The value we care about is W — the average time each shopper spends in the system (waiting + being served). If shoppers arrive faster than the till can serve them (λ ≥ μ), then the queue never empties and W continuously grows. However, if μ > λ, then everyone would get the chance to be served.
+Shoppers arrive at the till randomly, at an average rate of λ (lambda people) per minute. The till serves one shopper at a time, at an average rate of μ (mu people) per minute. If a shopper arrives while the till is still busy with someone else, they queue and wait. The value we care about is W — the average time each shopper spends in the system (waiting + being served). If shoppers arrive faster than the till can serve them (λ ≥ μ), then the queue never empties and W continuously grows. 
 
 
 
