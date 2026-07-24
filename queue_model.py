@@ -2,7 +2,7 @@ def theoretical_wait(lam, mu):
     """M/M/1 average time in system (minutes)."""
     if lam >= mu:
         return float('inf')  # unstable, queue grows forever
-    return 1 / (mu - lam) # implements average wait time formula: W = 1/(lambda - mu)
+    return 1 / (mu - lam) # implements average wait time formula: W = 1/(mu - lambda)
 
 
 if __name__ == "__main__":
