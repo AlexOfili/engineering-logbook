@@ -51,6 +51,17 @@ As λ approaches μ (arrivals rate approaches the till's serving capacity), the 
 For a business, this means running a till near full capacity can be risky as a small increase in footfall can cause a disproportionate spike in queue times.
 
 
+### Toolkit Utilities
+
+  Function | What it does 
+- `split_tip(bill, tip_percent, people)` | Splits a bill + tip evenly between people |
+- `convert_length(value, from_unit, to_unit)` | Converts a length between units (e.g. meters → feet) |
+- `basket_total(prices, discount=0.0)` | Adds up a list of prices and applies a discount |
+- `password_strength(password)` | Rates a password weak / medium / strong |
+- `guessing_game(max_number=20)` | Number-guessing game against a random target |
+
+To Run It: 'python3 toolkit.py' command in bash 
+
 
 
 
