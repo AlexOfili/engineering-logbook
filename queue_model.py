@@ -15,7 +15,10 @@ if __name__ == "__main__":
 
 import random
 
-def simulate(lam, mu, customers=10000):
+
+random.seed(42)  # for reproducibility
+
+def simulate(lam, mu, customers=500000):
     t = 0.0           # current shopper's arrival time 
     till_free = 0.0    # when the till becomes free next
     total = 0.0        # running total of time in system, across all shoppers
